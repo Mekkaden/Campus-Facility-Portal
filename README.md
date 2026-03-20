@@ -17,7 +17,7 @@ This portal provides a 100% anonymous, frictionless way for students to submit a
 ### 1. Zero-Knowledge Authentication (Privacy First)
 To prevent external spam, users must verify their status using their official college email (`@mgits.ac.in`). 
 **We do not store your email.**
-The backend utilizes a one-way cryptographic hashing function (SHA-256) paired with a server-side salt. The system verifies the college domain, hashes the email to prevent spamming, and immediately drops the raw string. 
+The backend utilizes a oneway cryptographic hashing function (SHA-256) paired with a server-side salt. The system verifies the college domain, hashes the email to prevent spamming, and immediately drops the raw string. 
 *Result:* Neither the developers nor the college administration can reverse-engineer the hash to expose the identity of the user. 
 
 ### 2. AI Content Moderation
@@ -56,7 +56,7 @@ Create a `.env` file in the `backend` directory with the following:
 `cd ../frontend && npm start`
 
 ## Audit Transparency
-Trust is the foundation of this platform. Tech-savvy students and administrators are highly encouraged to audit the source code—specifically the authentication routing—to verify that raw emails are strictly used for one-time hashing and never persist in the database.
+Trust is the foundation of this platform. Techsavvy students and administrators are highly encouraged to audit the source code specifically the authentication routing to verify that raw emails are strictly used for onetime hashing and never persist in the database.
 
 ---
 **License & Credits**
