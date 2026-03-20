@@ -1,6 +1,6 @@
 # Campus Facility Analytics Portal
 
-A secure, zero-knowledge feedback system designed to bridge the gap between students and college administration.
+A secure, zero knowledge feedback system designed to bridge the gap between students and college administration.
 
 ## Current Status & Deployment Plan
 **Status: In Active Development**
